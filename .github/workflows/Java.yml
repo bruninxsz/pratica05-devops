@@ -6,7 +6,7 @@ name: Pipeline Java - Aula04 TA
 on:
   push:
     branches: 
-     - master
+     - main
 
 # Trabalhos que serão executados
 jobs:
@@ -37,4 +37,4 @@ jobs:
 
       # Executa o programa
       - name: Executar
-        run: java Pet.java
+        run: java Pet
